@@ -1,0 +1,22 @@
+.tuile-film {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.tuile-film:hover {
+  transform: scale(1.05);
+}
+
+.tuile-film img {
+  width: 200px; 
+  height: 300px; 
+  object-fit: cover; 
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.tuile-film h3 {
+  font-size: 18px;
+  margin: 0;
+}

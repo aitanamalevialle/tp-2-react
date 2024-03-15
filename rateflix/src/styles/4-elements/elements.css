@@ -1,0 +1,7 @@
+body {
+    background-color: var(--couleur-background);
+}
+
+main {
+    padding: 20px;
+}

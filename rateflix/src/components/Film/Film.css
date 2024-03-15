@@ -1,0 +1,49 @@
+.film {
+  max-width: 800px;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+.film > div {
+  flex: 1;
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.film h2 {
+  font-size: 24px;
+  margin-top: 20px; 
+}
+
+.film img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.film p {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 375px) {
+  .film > div {
+    flex-basis: 100%; 
+  }
+}
+
+@media only screen and (min-width: 376px) and (max-width: 768px) {
+  .film > div {
+    flex-basis: 70%; 
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .film > div {
+    flex-basis: 40%; 
+  }
+}

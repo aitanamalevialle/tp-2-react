@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Movie Title Ah';
+    src: url('/public/fonts/movie_title_ah/movie_title_ah.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/public/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
+}
+
+:root {
+    --police-titre: 'Movie Title Ah', sans-serif;
+    --police-texte-courant: 'Montserrat', sans-serif;
+    --police-xs: 0.8rem;
+    --police-s: 1rem;
+    --police-m: 1.5rem;
+    --police-l: 3rem;
+    --police-xl: 3.5rem;
+}
+
+body {
+    font-family: var(--police-texte-courant);
+}

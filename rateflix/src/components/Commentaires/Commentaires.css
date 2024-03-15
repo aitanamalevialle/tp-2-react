@@ -1,0 +1,17 @@
+.commentaires {
+margin-top: 20px; 
+}
+
+.commentaires form {
+margin-bottom: 20px; 
+}
+
+.commentaires textarea {
+width: 100%; 
+height: 100px; 
+margin-bottom: 10px;
+}
+
+.commentaires p {
+margin-bottom: 10px;
+}

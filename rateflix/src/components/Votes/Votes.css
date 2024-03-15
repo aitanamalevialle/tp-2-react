@@ -1,0 +1,23 @@
+.votes {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.votes button {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    background: url('/public/stars.svg') no-repeat top left;
+}
+
+.votes:not(:hover) button:indeterminate,
+.votes:not(:hover) button:checked ~ button,
+.votes button:hover ~ button {
+    background-position: -48px 0;
+}
+
+.votes:not(:hover) button:focus-visible {
+    background-position: -48px 0;
+}

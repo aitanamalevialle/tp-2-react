@@ -1,0 +1,11 @@
+.liste-films {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.liste-films a {
+    text-decoration: none;
+    color: inherit; 
+}
